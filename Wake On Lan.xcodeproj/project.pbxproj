@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6D8832E4020892A227275D /* Pods_Wake_On_Lan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BA64CD1CAF9F9485EA7E19 /* Pods_Wake_On_Lan.framework */; };
+		52B2D6CE20FD7E4C002F4837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2D6CD20FD7E4C002F4837 /* AppDelegate.swift */; };
+		52B2D6D020FD7E4C002F4837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2D6CF20FD7E4C002F4837 /* ViewController.swift */; };
+		52B2D6D320FD7E4D002F4837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B2D6D120FD7E4C002F4837 /* Main.storyboard */; };
+		52B2D6D520FD7E52002F4837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B2D6D420FD7E52002F4837 /* Assets.xcassets */; };
+		52B2D6D820FD7E52002F4837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B2D6D620FD7E52002F4837 /* LaunchScreen.storyboard */; };
+		52B2D6FC20FD843E002F4837 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2D6FB20FD843E002F4837 /* AddViewController.swift */; };
+		52B2D70020FD8849002F4837 /* Awake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2D6FF20FD8849002F4837 /* Awake.swift */; };
+		52B2D73C20FDA8BB002F4837 /* MACListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2D73B20FDA8BB002F4837 /* MACListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36FCE370549D47295793D9C6 /* Pods-Wake On Lan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake On Lan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wake On Lan/Pods-Wake On Lan.debug.xcconfig"; sourceTree = "<group>"; };
+		3A1E395E80048D79A8117857 /* Pods-Wake On LanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake On LanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wake On LanTests/Pods-Wake On LanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CA62F8B83A1CD8DA025A37A /* Pods-Wake On LanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake On LanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wake On LanTests/Pods-Wake On LanTests.release.xcconfig"; sourceTree = "<group>"; };
+		52A3AF6721007191002B3B80 /* ScreenSharingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSharingSDK.framework; path = Framework/ScreenSharingSDK.framework; sourceTree = "<group>"; };
+		52B2D6CA20FD7E4C002F4837 /* Wake On Lan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake On Lan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B2D6CD20FD7E4C002F4837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52B2D6CF20FD7E4C002F4837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B2D6D220FD7E4C002F4837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B2D6D420FD7E52002F4837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B2D6D720FD7E52002F4837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B2D6D920FD7E52002F4837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B2D6FB20FD843E002F4837 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		52B2D6FF20FD8849002F4837 /* Awake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awake.swift; sourceTree = "<group>"; };
+		52B2D73B20FDA8BB002F4837 /* MACListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MACListTableViewCell.swift; sourceTree = "<group>"; };
+		77BA64CD1CAF9F9485EA7E19 /* Pods_Wake_On_Lan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wake_On_Lan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0AA08BF3C5FEE23B505935 /* Pods_Wake_On_LanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wake_On_LanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F686EBA7F6716BC25F62B1A /* Pods_Wake_On_LanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wake_On_LanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		876298A48179A3A3331ABB84 /* Pods-Wake On LanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake On LanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wake On LanUITests/Pods-Wake On LanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE9E007285B1B0F4C73076F5 /* Pods-Wake On Lan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake On Lan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wake On Lan/Pods-Wake On Lan.release.xcconfig"; sourceTree = "<group>"; };
+		DD8182A5EA0A5C82DAB0266F /* Pods-Wake On LanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wake On LanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wake On LanUITests/Pods-Wake On LanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B2D6C720FD7E4C002F4837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6D8832E4020892A227275D /* Pods_Wake_On_Lan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19403BF8DEAA4AAEACF3EAA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52A3AF6721007191002B3B80 /* ScreenSharingSDK.framework */,
+				77BA64CD1CAF9F9485EA7E19 /* Pods_Wake_On_Lan.framework */,
+				7C0AA08BF3C5FEE23B505935 /* Pods_Wake_On_LanTests.framework */,
+				7F686EBA7F6716BC25F62B1A /* Pods_Wake_On_LanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D4FD46887F7C18C8221049A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36FCE370549D47295793D9C6 /* Pods-Wake On Lan.debug.xcconfig */,
+				BE9E007285B1B0F4C73076F5 /* Pods-Wake On Lan.release.xcconfig */,
+				3A1E395E80048D79A8117857 /* Pods-Wake On LanTests.debug.xcconfig */,
+				4CA62F8B83A1CD8DA025A37A /* Pods-Wake On LanTests.release.xcconfig */,
+				DD8182A5EA0A5C82DAB0266F /* Pods-Wake On LanUITests.debug.xcconfig */,
+				876298A48179A3A3331ABB84 /* Pods-Wake On LanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52024E1121016E6C00028C68 /* WakeModel */ = {
+			isa = PBXGroup;
+			children = (
+				52B2D6FF20FD8849002F4837 /* Awake.swift */,
+			);
+			path = WakeModel;
+			sourceTree = "<group>";
+		};
+		52024E22210170AA00028C68 /* Wake On */ = {
+			isa = PBXGroup;
+			children = (
+				52B2D73B20FDA8BB002F4837 /* MACListTableViewCell.swift */,
+				52B2D6FB20FD843E002F4837 /* AddViewController.swift */,
+			);
+			path = "Wake On";
+			sourceTree = "<group>";
+		};
+		52B2D6C120FD7E4C002F4837 = {
+			isa = PBXGroup;
+			children = (
+				52B2D6CC20FD7E4C002F4837 /* Wake On Lan */,
+				52B2D6CB20FD7E4C002F4837 /* Products */,
+				2D4FD46887F7C18C8221049A /* Pods */,
+				19403BF8DEAA4AAEACF3EAA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52B2D6CB20FD7E4C002F4837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B2D6CA20FD7E4C002F4837 /* Wake On Lan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B2D6CC20FD7E4C002F4837 /* Wake On Lan */ = {
+			isa = PBXGroup;
+			children = (
+				52024E22210170AA00028C68 /* Wake On */,
+				52024E1121016E6C00028C68 /* WakeModel */,
+				52B2D6CD20FD7E4C002F4837 /* AppDelegate.swift */,
+				52B2D6CF20FD7E4C002F4837 /* ViewController.swift */,
+				52B2D6D420FD7E52002F4837 /* Assets.xcassets */,
+				52B2D6D120FD7E4C002F4837 /* Main.storyboard */,
+				52B2D6D620FD7E52002F4837 /* LaunchScreen.storyboard */,
+				52B2D6D920FD7E52002F4837 /* Info.plist */,
+			);
+			path = "Wake On Lan";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B2D6C920FD7E4C002F4837 /* Wake On Lan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B2D6F220FD7E52002F4837 /* Build configuration list for PBXNativeTarget "Wake On Lan" */;
+			buildPhases = (
+				5969F0CF40782355D7C3FC54 /* [CP] Check Pods Manifest.lock */,
+				52B2D6C620FD7E4C002F4837 /* Sources */,
+				52B2D6C720FD7E4C002F4837 /* Frameworks */,
+				52B2D6C820FD7E4C002F4837 /* Resources */,
+				19F93DF1F41964205C90156D /* [CP] Embed Pods Frameworks */,
+				CCAE671D213DF66055430198 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wake On Lan";
+			productName = "Wake On Lan";
+			productReference = 52B2D6CA20FD7E4C002F4837 /* Wake On Lan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B2D6C220FD7E4C002F4837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = JamesTang;
+				TargetAttributes = {
+					52B2D6C920FD7E4C002F4837 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 52B2D6C520FD7E4C002F4837 /* Build configuration list for PBXProject "Wake On Lan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B2D6C120FD7E4C002F4837;
+			productRefGroup = 52B2D6CB20FD7E4C002F4837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B2D6C920FD7E4C002F4837 /* Wake On Lan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B2D6C820FD7E4C002F4837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B2D6D820FD7E52002F4837 /* LaunchScreen.storyboard in Resources */,
+				52B2D6D520FD7E52002F4837 /* Assets.xcassets in Resources */,
+				52B2D6D320FD7E4D002F4837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19F93DF1F41964205C90156D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wake On Lan/Pods-Wake On Lan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AnyFormatKit/AnyFormatKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PlainPing/PlainPing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnyFormatKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlainPing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wake On Lan/Pods-Wake On Lan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5969F0CF40782355D7C3FC54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wake On Lan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCAE671D213DF66055430198 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wake On Lan/Pods-Wake On Lan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B2D6C620FD7E4C002F4837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B2D70020FD8849002F4837 /* Awake.swift in Sources */,
+				52B2D73C20FDA8BB002F4837 /* MACListTableViewCell.swift in Sources */,
+				52B2D6D020FD7E4C002F4837 /* ViewController.swift in Sources */,
+				52B2D6CE20FD7E4C002F4837 /* AppDelegate.swift in Sources */,
+				52B2D6FC20FD843E002F4837 /* AddViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52B2D6D120FD7E4C002F4837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B2D6D220FD7E4C002F4837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B2D6D620FD7E52002F4837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B2D6D720FD7E52002F4837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B2D6F020FD7E52002F4837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52B2D6F120FD7E52002F4837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B2D6F320FD7E52002F4837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FCE370549D47295793D9C6 /* Pods-Wake On Lan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U2554FDX3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Wake On Lan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.likon.Wake-On-Lan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52B2D6F420FD7E52002F4837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9E007285B1B0F4C73076F5 /* Pods-Wake On Lan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U2554FDX3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Wake On Lan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.likon.Wake-On-Lan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B2D6C520FD7E4C002F4837 /* Build configuration list for PBXProject "Wake On Lan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B2D6F020FD7E52002F4837 /* Debug */,
+				52B2D6F120FD7E52002F4837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B2D6F220FD7E52002F4837 /* Build configuration list for PBXNativeTarget "Wake On Lan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B2D6F320FD7E52002F4837 /* Debug */,
+				52B2D6F420FD7E52002F4837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B2D6C220FD7E4C002F4837 /* Project object */;
+}

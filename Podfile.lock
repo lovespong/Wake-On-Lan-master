@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AnyFormatKit (0.1.2)
+  - PKHUD (5.1.0)
+  - PlainPing (0.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - AnyFormatKit
+  - PKHUD (~> 5.0)
+  - PlainPing
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AnyFormatKit: b31739f6047c94c204e0640b281c80eda23be235
+  PKHUD: 62ea46a1e88c4def1da784878d199bb54c841e3c
+  PlainPing: 6b248b94d92be7ec0410952d1b09af43b9a39015
+
+PODFILE CHECKSUM: ec281cf10c3619255e967d1860358ed253727c05
+
+COCOAPODS: 1.4.0

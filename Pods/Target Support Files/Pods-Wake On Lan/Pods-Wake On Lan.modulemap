@@ -1,0 +1,6 @@
+framework module Pods_Wake_On_Lan {
+  umbrella header "Pods-Wake On Lan-umbrella.h"
+
+  export *
+  module * { export * }
+}
