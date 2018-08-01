@@ -8,6 +8,8 @@
 
 import UIKit
 import Alamofire
+import PlainPing
+import PKHUD
 
 class ViewController: UIViewController {
     
@@ -19,7 +21,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         tableView.dataSource = self
         tableView.delegate = self
 

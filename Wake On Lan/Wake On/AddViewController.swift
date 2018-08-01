@@ -21,22 +21,12 @@ class AddViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginSwitch: UISwitch!
     @IBOutlet weak var actionPickerView: UIPickerView!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     var dict:NSDictionary!
     var isUpdate:Bool!
     var selectedIndex:Int!
-    //    Shutdown
-    //    Reboot
-    //    Logoff
-    //    Lock
-    //    Sleep
-    //    Hibernate
-    //    MonitorOff
-    //    ScreenSaver
-    //    VolumeMute
-    //    VolumeUnmute
-    //    HangUp
-    //    Alarm
+
     let actionArray = ["Shutdown","Reboot","Logoff","Lock","Sleep","Hibernate","MonitorOff","ScreenSaver","VolumeMute","VolumeUnmute","HangUp","Alarm"]
     
     override func viewDidLoad() {
@@ -48,6 +38,11 @@ class AddViewController: UIViewController {
         passwordTextField.delegate = self
         actionPickerView.delegate = self
         actionPickerView.dataSource = self
+        scrollView.delegate = self
+        scrollView.isScrollEnabled = true
+        
+       // let height = Int(self.view.frame.height) + Int(passwordTextField.frame.origin.y)
+       // scrollView.contentSize = CGSize(width: self.view.frame.width, height: CGFloat(height))
         
         self.navigationController?.navigationBar.tintColor = UIColor.white
         
@@ -139,24 +134,16 @@ class AddViewController: UIViewController {
         UserDefaults.standard.synchronize()
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.view.endEditing(true)
-    }
-    
 }
 
-extension AddViewController:UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIPickerViewDelegate,UIPickerViewDataSource {
+extension AddViewController:UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIPickerViewDelegate,UIPickerViewDataSource,UIScrollViewDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         if textField == macTextField && loginSwitch.isOn == false{
             save(textField)
         }
-        if textField == passwordTextField {
-            save(textField)
-        }
         return true
     }
-    
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         textField.resignFirstResponder()
@@ -186,4 +173,18 @@ extension AddViewController:UITextFieldDelegate,UIImagePickerControllerDelegate,
         let myTitle = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.foregroundColor:UIColor.white])
         return myTitle
     }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.scrollView.endEditing(true)
+    }
+    
+}
+
+extension UIScrollView {
+    
+    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.next?.touchesBegan(touches, with: event)
+        self.endEditing(true)
+    }
+    
 }
